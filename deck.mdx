@@ -1,0 +1,80 @@
+import myTheme from "./theme";
+import { SplitRight, Split, Horizontal, Invert } from "mdx-deck";
+import Dots from "./components/Dots.jsx";
+
+import imageSrc from "./images/joseph-campbell-quote.jpg";
+import imageSrc2 from "./images/joseph-campbell.jpg";
+
+export const theme = myTheme;
+
+<Head>
+  <title>Мономиф в танахических истоериях и не только</title>
+</Head>
+
+<Header>
+
+Мономиф(путешествие героя) в танахических историях и не только
+
+</Header>
+
+<Footer>
+
+<Dots />
+
+</Footer>
+
+# Страх неизвестности
+
+<Split>
+
+<img src={imageSrc} />
+
+- Самый главный врег героя
+
+- из-за него не может начаться путешествие героя
+
+- Настолько сложно преодолеть что зачастую нужна помощь извне
+
+</Split>
+
+<Notes>
+
+- Only visible in presenter mode
+- Markdown syntax can be used with empty lines around the content
+
+</Notes>
+
+---
+
+# Джосеф Кемпбел
+
+Американский исследователь мифологии, автор трудов по сравнительной мифологии и религиоведению.
+
+<Horizontal>
+
+<img src={imageSrc2} />
+
+<p>
+  Американский исследователь мифологии, автор трудов по сравнительной мифологии
+  и религиоведению.
+</p>
+
+<img src={imageSrc2} />
+
+</Horizontal>
+
+---
+
+## Путешествие героя
+
+<Steps>
+
+- Этап 1: Исход
+- Этап 2: Инициация
+- Этап 3: Возвращение
+
+</Steps>
+
+---
+
+## The End
