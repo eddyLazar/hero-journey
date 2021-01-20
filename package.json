@@ -1,9 +1,11 @@
+
 {
   "name": "hero-presentation",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "serve": "serve images/",
     "start": "mdx-deck ./deck.mdx",
     "build": "mdx-deck build deck.mdx",
     "help": "mdx-deck"

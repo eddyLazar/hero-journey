@@ -1,10 +1,6 @@
 import { themes } from "mdx-deck";
 
-// export const theme = themes.yellow
-
 const theme = themes.yellow;
-
-console.log(theme);
 
 theme.styles.Footer = {
   display: "flex",
@@ -13,4 +9,38 @@ theme.styles.Footer = {
 
 export default {
   ...theme,
+  styles: {
+    h1: {
+      maxWidth: "70%",
+      letterSpacing: "0.1em",
+    },
+    blockquote: {
+      fontStyle: "italic",
+    },
+    img: {
+      maxWidth: "70%",
+      width: "initial",
+      height: "initial",
+      horizontal: {
+        height: 20,
+      },
+    },
+    Slide: {},
+    Header: {},
+    Footer: {},
+    li: {
+      marginBottom: 4,
+      textAlign: "left",
+    },
+  },
+  images: {
+    avatar: {
+      width: 48,
+      height: 48,
+      borderRadius: 99999,
+    },
+    horizontal: {
+      height: 20,
+    },
+  },
 };
