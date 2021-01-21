@@ -14,6 +14,9 @@ export default {
       maxWidth: "70%",
       letterSpacing: "0.1em",
     },
+    p: {
+      // textAlign: "center",
+    },
     blockquote: {
       fontStyle: "italic",
     },
@@ -29,8 +32,8 @@ export default {
     Header: {},
     Footer: {},
     li: {
-      marginBottom: 4,
-      textAlign: "left",
+      marginBottom: 3,
+      textAlign: "left!important",
     },
   },
   images: {
