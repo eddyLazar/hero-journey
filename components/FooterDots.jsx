@@ -14,9 +14,9 @@ export default () => {
 
   return (
     <Flex sx={{ justifyContent: "center", marginBottom: 4 }}>
-      {/* {range(1, deckState.slides.length).map((i) => (
+      {range(1, deckState.slides.length).map((i) => (
         <Dot key={i} filled={i <= deckState.index + 1} />
-      ))} */}
+      ))}
     </Flex>
   );
 };

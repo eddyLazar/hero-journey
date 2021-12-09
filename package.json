@@ -1,11 +1,10 @@
 {
   "name": "hero-presentation",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "serve": "serve images/",
-    "start": "mdx-deck ./deck.mdx",
+    "start": "mdx-deck ./deck-new.mdx",
     "build": "mdx-deck build deck.mdx && cp -r images public",
     "help": "mdx-deck"
   },
@@ -16,5 +15,14 @@
   },
   "dependencies": {
     "ramda": "^0.27.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddyLazar/hero-journey.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eddyLazar/hero-journey/issues"
+  },
+  "homepage": "https://github.com/eddyLazar/hero-journey#readme",
+  "description": ""
 }

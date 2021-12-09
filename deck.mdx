@@ -1,38 +1,38 @@
 import myTheme from "./theme";
 import { SplitRight, Split, Horizontal, Invert } from "mdx-deck";
 import FooterDots from "./components/FooterDots.jsx";
-import { Heading, Box } from 'theme-ui'
-import { Image, Styled } from 'theme-ui'
+import { Heading, Box } from "theme-ui";
+import { Image, Styled } from "theme-ui";
 
 export const theme = myTheme;
 
-export const getImagesPath = (imageName) =>  `/images/${imageName}`;
+export const getImagesPath = (imageName) => `/images/${imageName}`;
 
 <Head>
   <title>Мономиф или Путешествие героя в танахических историях и не только</title>
 </Head>
 
-<Header>
-  Мономиф. Путешествие героя.
-</Header>
+<Header>Мономиф. Путешествие героя.</Header>
 
 <Footer>
 
-  <FooterDots />
+{" "}
+
+<FooterDots />
 
 </Footer>
 
 # Мономиф. Путешествие героя.
 
-<img src='/images/monomyth.png' />
+<img src="/images/monomyth.png" />
 
 ---
 
 ## Кто я и как я об этом узнал.
+
 <Split>
 
-<img src='/images/edik.jpg' />
-
+<img src="/images/edik.jpg" />
 
 - Религиозное образование
 - Джордан Питерсон его лекции, книги, подкасты
@@ -45,7 +45,7 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 <h2>Что такое миф и откуда он взялся и для чего он нужен?</h2>
 
-<img src='/images/heroes.jpg' />
+<img src="/images/heroes.jpg" />
 
 <Notes>
 
@@ -60,7 +60,7 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 <Split>
   <img src={getImagesPath("/chaos.webp")} />
   <h3>Хаос</h3>
-  <img style={{width: 400}} src={getImagesPath("/chaos-wiki.png")} />
+  <img style={{ width: 400 }} src={getImagesPath("/chaos-wiki.png")} />
 </Split>
 
 <Notes>
@@ -75,20 +75,21 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 <h2>Что такое миф и откуда он взялся и для чего он нужен?</h2>
 
 <Split>
-  <img style={{width: 230 }} src="/images/hermofro.jpg" />
+  <img style={{ width: 230 }} src="/images/hermofro.jpg" />
   <h3>Гермофродит</h3>
   <p>
-    C огласно древнегреческой мифологии, прекрасный юноша, сын посланника богов Гермеса и богини любви Афродиты. От родителей он унаследовал невероятную красоту
+    C огласно древнегреческой мифологии, прекрасный юноша, сын посланника богов Гермеса и богини любви Афродиты. От
+    родителей он унаследовал невероятную красоту
   </p>
 </Split>
 
 <Notes>
-  - В некоторых источниках продился таким, а в некоторых слился со своей возлюбленной
-  - Афродита в мужском обличии на Кипре
-  - Афродитсоу поклонялись, даже был празник когда мужчины и жензины переодевались
+  - В некоторых источниках продился таким, а в некоторых слился со своей возлюбленной - Афродита в мужском обличии на
+  Кипре - Афродитсоу поклонялись, даже был празник когда мужчины и жензины переодевались
 </Notes>
 
 ---
+
 <Horizontal>
 
 <div style={{textAlign: 'left'}}>
@@ -117,16 +118,20 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 <Horizontal>
 
-  <Styled.img src="/images/freud.jpg"  style={{height: 500}} />
+{" "}
 
-  <Styled.img src="/images/jung.jpg" style={{height: 500}} />
+<Styled.img src="/images/freud.jpg" style={{ height: 500 }} />
+
+{" "}
+
+<Styled.img src="/images/jung.jpg" style={{ height: 500 }} />
 
 </Horizontal>
 
 <Notes>
 
-  - Опыт поколений
-  - Передавался из уст в уста
+- Опыт поколений
+- Передавался из уст в уста
 
 </Notes>
 
@@ -134,9 +139,11 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 ## Джосеф Кэмпбелл
 
-<p style={{textAlign: 'center'}}>Американский исследователь мифологии, автор трудов по сравнительной мифологии и религиоведению.</p>
+<p style={{ textAlign: "center" }}>
+  Американский исследователь мифологии, автор трудов по сравнительной мифологии и религиоведению.
+</p>
 
-<img src="/images/joseph-campbell.jpg" style={{width: 500}}/>
+<img src="/images/joseph-campbell.jpg" style={{ width: 500 }} />
 
 > "Большинство историй, написанных человеком, имеют схожую структуру"
 
@@ -144,9 +151,9 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 ## Мономиф
 
-*Тысячеликий герой, 1949*
+_Тысячеликий герой, 1949_
 
-<img src="/images/book.jpg"  style={{width: 300}}/>
+<img src="/images/book.jpg" style={{ width: 300 }} />
 
 ---
 
@@ -156,8 +163,8 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 <Notes>
 
-  - Выход из зоны комфорта
-  - Известное / Неизвестное
+- Выход из зоны комфорта
+- Известное / Неизвестное
 
 </Notes>
 
@@ -166,9 +173,11 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 ## Этапы путешествия
 
 - **Этап 1: Исход**
+
   - Обычный мир, Зов приключений, Наставник, Инструменты, Преодоление первого препятствия
 
 - **Этап 2: Инициация**
+
   - Испытания, Враги, Союзники, Награда
 
 - **Этап 3: Возвращение**
@@ -198,7 +207,7 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 <Steps>
 
-  - Путешествие = неизвестное
+- Путешествие = неизвестное
 
 </Steps>
 
@@ -230,7 +239,7 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 мир идолопоклонников
 
-<img src="/images/abraham.jpg" style={{width: 400}}/>
+<img src="/images/abraham.jpg" style={{ width: 400 }} />
 
 ---
 
@@ -238,7 +247,7 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 мир материальности
 
-<img src="/images/buhda.webp" style={{width: 400}}/>
+<img src="/images/buhda.webp" style={{ width: 400 }} />
 
 ---
 
@@ -246,7 +255,7 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 - Египетское рабство
 
-<img src="/images/moses.jpg" style={{width: 600}}/>
+<img src="/images/moses.jpg" style={{ width: 600 }} />
 
 ---
 
@@ -254,7 +263,7 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 - Мир без джедаев в котором правят ситхи
 
-<img src="/images/luke.jpg" style={{width: 600}}/>
+<img src="/images/luke.jpg" style={{ width: 600 }} />
 
 ---
 
@@ -277,15 +286,15 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 – Лех Леха, Берешит
 
-<img src="/images/abraham.jpg" style={{width: 300}}/>
+<img src="/images/abraham.jpg" style={{ width: 300 }} />
 
 ---
 
 – Глава Шмот, Книга Шмот
 
->  И оглянулся он по сторонам, и увидел, что нет никого, и поразил мицри, и спрятал его в песке.
+> И оглянулся он по сторонам, и увидел, что нет никого, и поразил мицри, и спрятал его в песке.
 
-<img src="/images/moses-kills.jpeg" style={{width: 600}}/>
+<img src="/images/moses-kills.jpeg" style={{ width: 600 }} />
 
 ---
 
@@ -295,9 +304,9 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 <Split>
 
-<img src="/images/thomas.jpeg" style={{width: 600}}/>
+<img src="/images/thomas.jpeg" style={{ width: 600 }} />
 
-<img src="/images/neo.jpeg" style={{width: 600}}/>
+<img src="/images/neo.jpeg" style={{ width: 600 }} />
 
 </Split>
 
@@ -313,7 +322,7 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 ## Моше боится что у него не получится
 
-<img src="/images/bush.jpg" style={{width: 600}}/>
+<img src="/images/bush.jpg" style={{ width: 600 }} />
 
 ---
 
@@ -321,11 +330,11 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 - попытался убежать от Всевышнего
 
-<img src="/images/johna.jpg" style={{width: 600}}/>
+<img src="/images/johna.jpg" style={{ width: 600 }} />
 
 <Notes>
 
-- Должен был пророчиствовать в Нинве о том что все они там грешники и если  не раскаятся то будет им наказание
+- Должен был пророчиствовать в Нинве о том что все они там грешники и если не раскаятся то будет им наказание
 
 </Notes>
 
@@ -340,9 +349,9 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 <Notes>
 
-  - В каком-то смысле ментор и делает героя своим избранным
-  - меч короля артура
-  - посох Моше
+- В каком-то смысле ментор и делает героя своим избранным
+- меч короля артура
+- посох Моше
 
 </Notes>
 
@@ -350,11 +359,17 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 <Horizontal>
 
-  <img src="/images/yoda.webp" style={{width: 500}}/>
+{" "}
 
-  <img src="/images/morph.jpg" style={{width: 500}}/>
+<img src="/images/yoda.webp" style={{ width: 500 }} />
 
-  <img src="/images/dambldor.webp" style={{width: 500}}/>
+{" "}
+
+<img src="/images/morph.jpg" style={{ width: 500 }} />
+
+{" "}
+
+<img src="/images/dambldor.webp" style={{ width: 500 }} />
 
 </Horizontal>
 
@@ -372,7 +387,7 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 <pre>Возможность обрести свободу или красивая тюрьма?</pre>
 
-<img src="/images/redblue.jpg" style={{width: 500}}/>
+<img src="/images/redblue.jpg" style={{ width: 500 }} />
 
 ---
 
@@ -382,13 +397,13 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 - трансформация
 - смерть
 
-<img src="/images/johna2.jpg" style={{width: 500}}/>
+<img src="/images/johna2.jpg" style={{ width: 500 }} />
 
 ---
 
 ## Нео просыпается в реальном мире
 
-<img src="/images/neo-wakes.jpg" style={{width: 700}}/>
+<img src="/images/neo-wakes.jpg" style={{ width: 700 }} />
 
 ---
 
@@ -404,7 +419,6 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 - он жил очень давно и про него мало картинок
 
 </Notes>
-
 
 ---
 
@@ -437,8 +451,7 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 ## 12 Испытаний Геркулеса
 
-
-<img src="/images/heracles.jpg" style={{width: 700}}/>
+<img src="/images/heracles.jpg" style={{ width: 700 }} />
 
 ---
 
@@ -478,13 +491,13 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 ## Люк - я твой отец
 
-<img src="/images/iamyourfather.jpg" style={{width: 700}}/>
+<img src="/images/iamyourfather.jpg" style={{ width: 700 }} />
 
 ---
 
 ## Авраам приносит в жертву ицхака
 
-<img src="/images/sacrifice.jpg" style={{width: 700}}/>
+<img src="/images/sacrifice.jpg" style={{ width: 700 }} />
 
 ---
 
@@ -492,7 +505,7 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 - несмотря на победу, у героя остаются шрамы
 
-<img src="/images/jacob-battle.jpg" style={{width: 350}}/>
+<img src="/images/jacob-battle.jpg" style={{ width: 350 }} />
 
 ---
 
@@ -544,7 +557,7 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 <Notes>
 
-  - НА пангане очень круто зачем мне ехать обратно
+- НА пангане очень круто зачем мне ехать обратно
 
 </Notes>
 
@@ -552,7 +565,7 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 ## Грех разведчиков
 
-<img src="/images/razvedka.jpg" style={{width: 700}}/>
+<img src="/images/razvedka.jpg" style={{ width: 700 }} />
 
 <Notes>
 
@@ -571,7 +584,7 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 <Steps>
 
-  - конец одного - начало нового
+- конец одного - начало нового
 
 </Steps>
 
@@ -590,9 +603,9 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 <Notes>
 
- - Джосеф Кэмпбелл утверждает что это этап творения
- - Так же как божественная сила сделала из того греческого Хаоса что-то
- - Так же и мы учавствует в этом процессе творения
+- Джосеф Кэмпбелл утверждает что это этап творения
+- Так же как божественная сила сделала из того греческого Хаоса что-то
+- Так же и мы учавствует в этом процессе творения
 
 </Notes>
 
@@ -602,14 +615,14 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 <Steps>
 
- - О нас с вами
+- О нас с вами
 
 </Steps>
 
 <Notes>
 
- - Почему так цепляют? Почему можем слушать ходить в кино читать книги?
- - История о том как каждый из нас отправляется в духовный путь
+- Почему так цепляют? Почему можем слушать ходить в кино читать книги?
+- История о том как каждый из нас отправляется в духовный путь
 
 </Notes>
 
@@ -643,7 +656,7 @@ export const getImagesPath = (imageName) =>  `/images/${imageName}`;
 
 ## Подкаст Тора нашими глазами
 
-<img src="/images/podcast.jpg" style={{width: 250}} />
+<img src="/images/podcast.jpg" style={{ width: 250 }} />
 
 - [Телеграм канал](https://t.me/torah_weekly)
 - [Инстаграм](http://instagram.com/real.edos/)
